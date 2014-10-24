@@ -1,0 +1,62 @@
+body {
+    background-color: rgba(0, 0, 0, 0.11);
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+/* Overide the bootstrap to center */
+.center {
+    margin:0 auto;
+    float:none;
+}
+
+footer {
+    color: #a2a2a2;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#forget, a{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+
+#login-form{
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    box-shadow: 0 0 2px rgba(0,0,0, 0.1);
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+    /* Remove any padding from the body */
+    body {
+        padding-top: 20px;
+    }
+
+
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+    /* Remove any padding from the body */
+    body {
+        padding-top: 20px;
+    }
+}
